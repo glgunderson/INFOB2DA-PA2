@@ -29,7 +29,7 @@ To keep collaboration smooth and avoid overwriting each other’s work, follow t
 
 ---
 
-### 🔹 Best Practices
+### Best Practices
 - One person per branch = no stepping on toes.
 - Always load the dataset using the GitHub raw link (see Dataset section).
 - Use clear commit messages (e.g., `Added revenue visualization`, not just `Update`).
