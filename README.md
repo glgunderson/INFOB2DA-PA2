@@ -33,7 +33,7 @@ df.head()
 
 ---
 
-## Collaboration Workflow
+# Collaboration Workflow
 
 To keep collaboration smooth and avoid overwriting each other’s work, follow this process:
 
