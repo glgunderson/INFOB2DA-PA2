@@ -31,8 +31,6 @@ df = pd.read_csv(url)
 print("Dataset loaded, shape:", df.shape)
 df.head()
 
----
-
 # Collaboration Workflow
 
 To keep collaboration smooth and avoid overwriting each other’s work, follow this process:
