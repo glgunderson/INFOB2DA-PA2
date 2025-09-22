@@ -1,6 +1,6 @@
 # INFOB2DA-PA2
 
-Group 7 project for INFOB2DA.
+Group 7-INFOB2DA.
 
 # Collaboration Workflow
 
