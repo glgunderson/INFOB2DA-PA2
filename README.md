@@ -2,35 +2,6 @@
 
 Group 7 project for INFOB2DA.
 
----
-
-## Open in Google Colab
-Click the badge below to open the main notebook directly in Colab:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/glgunderson/INFOB2DA-PA2/blob/main/notebooks/PA2.ipynb)
-
----
-
-## Repository Structure
-- `data/` → dataset(s)  
-- `notebooks/PA2.ipynb` → main project notebook  
-- `notebooks/README.md` → placeholder readme for notebooks folder  
-
----
-
-## Dataset
-The dataset is stored in `/data/online_shoppers_intention.csv`.
-
-In Colab, load it directly from GitHub with:
-
-```python
-import pandas as pd
-
-url = "https://raw.githubusercontent.com/glgunderson/INFOB2DA-PA2/main/data/online_shoppers_intention.csv"
-df = pd.read_csv(url)
-print("Dataset loaded, shape:", df.shape)
-df.head()
-
 # Collaboration Workflow
 
 To keep collaboration smooth and avoid overwriting each other’s work, follow this process:
@@ -63,3 +34,34 @@ To keep collaboration smooth and avoid overwriting each other’s work, follow t
 - Always load the dataset using the GitHub raw link (see Dataset section).
 - Use clear commit messages (e.g., `Added revenue visualization`, not just `Update`).
 - Test your notebook fully (`Runtime → Run all`) before opening a PR.
+
+---
+
+# GOOGLE COLAB ACCESS
+
+## Open in Google Colab
+Click the badge below to open the main notebook directly in Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/glgunderson/INFOB2DA-PA2/blob/main/notebooks/PA2.ipynb)
+
+---
+
+## Repository Structure
+- `data/` → dataset(s)  
+- `notebooks/PA2.ipynb` → main project notebook  
+- `notebooks/README.md` → placeholder readme for notebooks folder  
+
+---
+
+## Dataset
+The dataset is stored in `/data/online_shoppers_intention.csv`.
+
+In Colab, load it directly from GitHub with:
+
+```python
+import pandas as pd
+
+url = "https://raw.githubusercontent.com/glgunderson/INFOB2DA-PA2/main/data/online_shoppers_intention.csv"
+df = pd.read_csv(url)
+print("Dataset loaded, shape:", df.shape)
+df.head()
